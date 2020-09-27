@@ -1,1 +1,18 @@
-
+/*
+    In C, strings are typically one-dimensional arrays of chars that is terminated by a null character \0.
+    
+    Strings can be declared and initialized in a variety of ways, both directly and indirectly.
+    
+        The first way is to initialize a string is directly with an array:
+    
+            char greeting[6] = {'H', 'e', 'l', 'l', 'o', '\0'};
+    
+        You can also initialize a general array by:
+    
+            char greeting[] = "Hello";
+    
+    
+    
+    
+    The memory of a string has one more character than the number of visible characters. 
+    C automatically compiles '\0' at the end of any strings.
